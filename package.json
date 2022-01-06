@@ -1,5 +1,5 @@
 {
-    "name": "subheaven.prompt-logo",
+    "name": "subheaven-prompt-logo",
     "version": "0.1.0",
     "description": "Modulo para automatizar a impressão de logo e prompt de comando",
     "main": "index.js",
