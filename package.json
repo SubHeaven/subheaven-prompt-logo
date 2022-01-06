@@ -1,0 +1,31 @@
+{
+    "name": "subheaven.prompt-logo",
+    "version": "0.1.0",
+    "description": "Modulo para automatizar a impressão de logo e prompt de comando",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "postinstall": "node fix_cmd.js"
+    },
+    "bin": {
+        "subheaven-npm-base": "./cli.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SubHeaven/subheaven-npm-base.git"
+    },
+    "author": {
+        "name": "SubHeaven",
+        "email": "subheaven.paulo@gmail.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/SubHeaven/subheaven-npm-base/issues"
+    },
+    "homepage": "https://github.com/SubHeaven/subheaven-npm-base#readme",
+    "dependencies": {
+        "debug": "^4.3.1",
+        "subheaven-arg": "^0.2.6",
+        "subheaven-tools": "^0.1.13"
+    }
+}
